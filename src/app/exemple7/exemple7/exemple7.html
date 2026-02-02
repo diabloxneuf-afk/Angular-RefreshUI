@@ -1,5 +1,7 @@
 <h1>Exemple <b>Observable</b>-- UI REFRESH</h1>
-<h2 class="good">Bonne facon de faire pour temps réel -- <b>sans le mettre dans le service</b></h2>
+<h2 class="good">Bonne facon de faire pour temps réel - <b>En mettant dans le service!!! (Ce qui est mieux
+    que l'Exemple6, car ici tout les composant pourait écouter this.service.messages$ !!!!! ce qui est fort intéressant)
+</b></h2>
 
 
 @if (messages$ | async; as messages) {
